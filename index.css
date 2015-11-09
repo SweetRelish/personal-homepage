@@ -1,0 +1,188 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    color: black;
+    margin: 0px;
+    background-color:
+}
+
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background: -webkit-linear-gradient(top, rgb(102, 214, 255), rgb(102, 145, 255));
+}
+
+#header_words {
+    font-size: 56pt;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 56px;
+    color: white;
+}
+
+#menu {
+    font-size: 0px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    text-align: left;
+    width: 100%;
+    height: 80px;
+    background: -webkit-linear-gradient(top, grey, black);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu_box {
+    position: relative;
+    text-align: center;
+    margin-left: 0px;
+    height: inherit;
+    width: 14%;
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    font-size: 28pt;
+    line-height: 77px;
+    background: -webkit-linear-gradient(top, grey, black);
+    left:22%;
+}
+
+.menu_box > img {
+    padding-top: 22px;
+    padding-right: 15px;
+}
+
+.menu_box:hover {
+    background: -webkit-linear-gradient(top, white, black);
+    cursor: pointer;
+}
+
+#self {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+a > span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+a {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#picture {
+    margin-top: 50px;
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-color: green;
+    }
+    to {
+        background-color: cyan;
+    }
+}
+
+#ending {
+    margin-top: 50px;
+    height: 150px;
+    width: 100%;
+    background: -webkit-linear-gradient(top, gray, black);
+}
+
+#introofmota {
+    width: 100%;
+    height: 400px;
+    background: -webkit-linear-gradient(top, white, grey);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    color: black;}
+
+#introofmusic {
+    width: 100%;
+    height: 400px;
+    background: -webkit-linear-gradient(top, black, grey);
+    margin-left: auto;
+    margin-right: auto;
+    argin-top: 40px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#showimage {
+    text-align: right;
+    margin-right: 5%;
+    padding-top: 25px;
+    padding-bottom: auto;
+}
+
+#showdescription {
+    width: 30%;
+    height: 87.5%;
+    margin-top: 25px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 18pt;
+    margin-right: 3%;
+}
+
+#showdescription span {
+    font-size: 26pt;
+}
+
+#introofmota a {
+    color: black;
+}
+
+#introofmusic a {
+    color: white;
+}
+
+#showimage,
+#showdescription {
+    display: inline-block;
+}
+
+#introofmota img {
+    wdith: 300px;
+}
+
+#slogan {
+    position: relative;
+    margin-left: 0px;
+    width: 38%;
+    display: inline-block;
+    left: -5%;
+    top: 10%;
+    color: white;
+    font-size: 16pt;
+    vertical-align: top;
+}
+
+#contact {
+    text-align: left;
+    width: 28%;
+    display: inline-block;
+    position: relative;
+    background-color: grn;
+    color: white;
+    top: 10%;
+    left: 15%;
+}
+
+#contact a {
+    color: white;
+    font-size: 12pt;
+}
